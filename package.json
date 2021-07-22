@@ -1,0 +1,20 @@
+{
+  "name": "sysGroup",
+  "version": "1.0.0",
+  "description": "ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ccc"
+  },
+  "author": "ed",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
