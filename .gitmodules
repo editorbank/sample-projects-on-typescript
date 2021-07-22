@@ -1,0 +1,4 @@
+[submodule "sysGroup"]
+	path = sysGroup
+	url = git@github.com:editorbank/sample-projects-on-typescript.git
+	branch = sysGroup
