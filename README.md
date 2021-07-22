@@ -6,8 +6,8 @@ _git_submodule_
 ## Репозитории с включениями
 В данном случае этот проект содержит проект sysObjects, а он соответственно sysGroups. Проекты sysObjects 
 и sysGroups храняться в виде отдельных веток этого же репозитория, но могут и храниться в отдельных репозиториях.
-[https://github.com/editorbank/sample-projects-on-typescript/tree/sysObjects]
-[https://github.com/editorbank/sample-projects-on-typescript/tree/sysGroups]
+* [https://github.com/editorbank/sample-projects-on-typescript/tree/sysObjects]
+* [https://github.com/editorbank/sample-projects-on-typescript/tree/sysGroups]
 
 ## Скрипты
 Для обновленния и сборки проекта с подмодулями в нужной поледовательности используются дополнительные скрипты
