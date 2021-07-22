@@ -1,0 +1,4 @@
+[submodule "sysObjects"]
+	path = sysObjects
+	url = git@github.com:editorbank/sample-projects-on-typescript.git
+	branch = sysObjects

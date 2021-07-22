@@ -1,0 +1,25 @@
+{
+  "name": "sample-projects-on-typescript",
+  "version": "1.0.0",
+  "description": "ts",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "prebuild": "git submodule foreach npm run build",
+    "preinstall": "git submodule update --init --remote --recursive && git submodule foreach --recursive npm install",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ccc"
+  },
+  "author": "ed",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "sysObjects": "file:sysObjects"
+  }
+}

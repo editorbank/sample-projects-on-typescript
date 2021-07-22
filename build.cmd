@@ -1,0 +1,3 @@
+@echo Build ...
+git submodule update --init --remote --recursive && ^
+call npm i && call npm run build && echo OK
