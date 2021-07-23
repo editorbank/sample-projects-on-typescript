@@ -4,6 +4,9 @@
   "description": "ts",
   "main": "dist/index.js",
   "scripts": {
+    "gsm_up": "git submodule update --init --remote --recursive",
+    "prebuild": "git submodule foreach npm run build && npm install",
+    "buildall": "git submodule foreach npm run buildall && npm install && npm run build",
     "start": "tsc -w",
     "build": "tsc",
     "test": "jest"
