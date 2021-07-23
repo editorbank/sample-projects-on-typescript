@@ -1,2 +1,2 @@
 @echo Build ...
-call npm run tree_build && echo OK
+call npm run tree_up && call npm run tree_build && echo OK
