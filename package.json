@@ -4,9 +4,8 @@
   "description": "ts",
   "main": "dist/src/index.js",
   "scripts": {
+    "tree_build": "cd sysObjects && npm run tree_build && cd .. && npm install && npm run build",
     "start": "tsc -w",
-    "prebuild": "cd sysObjects && npm run build",
-    "preinstall": "cd sysObjects && npm i",
     "build": "tsc",
     "test": "jest"
   },
